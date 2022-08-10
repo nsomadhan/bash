@@ -12,6 +12,8 @@ array=(arrayvalueone arrayvaluetwo) # array declaration
 echo 'array__'${array[0]} 'argument__'${args[1]}
 
 
+echo 'Print all argument ___ ' $@
+
 
 # Calculate number off argument passed
 echo 'Number of argument pass': $#
